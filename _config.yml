@@ -1,9 +1,9 @@
 title: "Bryce Billing"
 author: "Bryce Billing"
-description: ""
+description: "Hi"
 #subheading: "Really cool blog about ... something"
 more: "read more"
-url: "http://www.brycebilling.com"
+url: http://www.brycebilling.com
 baseurl: # / "/contrast" # comment out if in root directory
 
 
