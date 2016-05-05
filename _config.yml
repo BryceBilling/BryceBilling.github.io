@@ -4,7 +4,7 @@ description: ""
 #subheading: "Really cool blog about ... something"
 more: "read more"
 url: "http://www.brycebilling.com"
-baseurl: "/contrast" # comment out if in root directory
+baseurl: #"/contrast" # comment out if in root directory
 
 comments:
     disqus: "niklasbuschmann"
