@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
+    <link rel="stylesheet" href="visastro/assets/css/style.css">
+    <link rel="canonical" href="/visastro/">
+    <meta name="description"
+        content="Honours project work by Calvin Brizzi, Bryce Billing and Laurisha Rampesad of the University of Cape Town supervised by Assoc. Prof Michelle Kuttel, Dr. Sarah Blythe and Assoc. Prof James Gain.">
+
+    <title>Novel Approaches To Astronomy Visualization Software</title>
+
+
+
+</head>
+
+
+<body>
+
+    <header class="page-header" style="  background: #56687C url('/assets/images/cover.jpg') no-repeat 50%;">
+
+        <h1 class="project-name"><strong> Novel Approaches To Astronomy Visualization
+                Software</strong></h1>
+        <h7>Honours project work by Calvin Brizzi, Bryce Billing and Laurisha Rampesad of the University of Cape Town
+            supervised by Assoc. Prof Michelle Kuttel, Dr. Sarah Blythe and Assoc. Prof James Gain.</h7>
+    </header>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <nav class="navbar navbar-light bg-light">
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="visastro.html">VisAstro Honours Project<span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="col-md-6">
+                <div class="home">
+                    <h2>Context</h2>
+                    <p class="text">
+                        Observations from radio telescopes are stored in multi-dimensional arrays (3-dimensional
+                        data
+                        cubes
+                        or higher) which are then analysed by radio astronomers. This analysis is enabled by the use
+                        of
+                        multiple visualization tools. While these tools are incredibly powerful, they have many
+                        limitations
+                        which are exacerbated by the sheer scale the data is reaching, with projects like the SKA
+                        predicting
+                        an <a
+                            href="https://www.wired.com/2012/04/what-to-do-with-1000000000000000000-bytes-of-astronomical-data-per-day/">exabyte
+                            of data every day.</a>
+                    </p>
+                    <p class="text">
+                        We believe existing software can be improved by involving users in interface design and
+                        implementing
+                        features that make user's lives easier, like overlaying optical catalogues or giving users
+                        the
+                        ability to select subvolumes and automatically analyse them.
+                    </p>
+                    <p class="text">
+                        Below we present a brief overview of our goals and findings, the full texts of the reports
+                        can
+                        be
+                        found in the resources section.
+                    </p>
+
+                    <h2>Goals</h2>
+                    <ul>
+                        <li class="text">Determine whether the use of User Centred Design (UCD) principles in the design of a
+                            software
+                            interface for astronomy visualization, will produce a design that is useful, usable and
+                            effective.</li>
+                        <li class="text"> Develop an effective method for the overlay of optical data catalogues on 3D radio data
+                            cubes.
+                        </li>
+                        <li class="text">Justify the implementation of 3D selection and automated analysis in current tools,
+                            through
+                            expert evaluation.</li>
+                    </ul>
+
+                    <h2>Results</h2>
+                    <h3>Usability in Astronomy Visualization Software Interfaces</h3>
+                    <img src="visastro/assets/images/UCD_overview.png"
+                        alt="Final Iteration of the Prototype Interface Design">
+
+                    <p class="text">
+                        Frequent consultation with domain experts produced a much more usable, useful and effective
+                        interface, making this approach worthwhile. The overall design improved over iterations and
+                        expert
+                        users felt the final design was an improvement on existing interfaces. Novel features such
+                        as
+                        comparisons, annotations and capturing images were highly useful additions. These findings
+                        can
+                        be
+                        applied when developing types of other scientific software as well.
+                    </p>
+                    <h3>Overlay of Optical Data Catalogues</h3>
+                    <img src="visastro/assets/images/overlay_overview.png" alt="Overlay with Optical Catalogue Loaded">
+
+                    <p class="text">
+                        Results showed that the overlay is easy to use and the markers were relatively accurate.
+                        This
+                        functionality is likely to reduce the number of manual operations and help astronomers
+                        easily
+                        visualize points of interest such as galaxy clusters.
+                    </p>
+                    <h3>User-defined Selection and Analysis</h3>
+                    <img src="visastro/assets/images/selection_overview.png" alt="Interface for 3D selection">
+
+                    <p class="text">
+                        Expert testing demonstrated that the features would improve existing options, Elliptical
+                        Cylinder
+                        selection in particular providing the biggest gains, with automated analysis and plain text
+                        export
+                        complementing it, while still being useful in their own right.
+                    </p>
+
+                    <h2 class="">Resources</h2>
+
+                    <h3 class="">Documents</h3>
+                    <ul>
+                        <li><a href="visastro/assets/files/proposal.pdf">Proposal</a></li>
+                        <li><a href="visastro/assets/files/rmplau001_thesis.pdf">Report on Usability in Astronomy
+                                Visualization Software
+                                Interfaces</a> -- <a href="visastro/assets/files/rmplau001_review.pdf">Literature
+                                review</a> (Laurisha Rampesad)</li>
+                        <li><a href="visastro/assets/files/bllbry001_thesis.pdf">Report on Overlay of Optical Data
+                                Catalogues</a> -- <a href="visastro/assets/files/bllbry001_review.pdf">Literature
+                                review</a> (Bryce Billing)</li>
+                        <li><a href="visastro/assets/files/brzcal001_thesis.pdf">Report on User-Defined Selection
+                                and
+                                Analysis</a> -- <a href="visastro/assets/files/brzcal001_review.pdf">Literature
+                                review</a> (Calvin Brizzi)</li>
+                        <li><a href="visastro/assets/files/poster.pdf">Poster</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+
+
+
+</html>
